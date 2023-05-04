@@ -1,0 +1,173 @@
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+.body {
+    background-image: linear-gradient(180deg, rgba(19, 19, 22, 0) 0%, #131316 700px, #131316 701px), url(/img/image.png);
+    background-color: #131316;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+
+
+/* main */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title {
+    font-family: 'Segoe UI', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 42px;
+    width: 620px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 620px;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.cards2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 620px;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.card__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 150px;
+}
+
+.card__img2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 305px;
+    height: 180px;
+}
+
+.card__frame {
+    width: 200px;
+    height: 310px;
+
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 4px;
+}
+
+.card__frame2 {
+    width: 305px;
+    height: 340px;
+
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 4px;
+}
+
+.card__desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card__desc__title {
+    font-family: 'Segoe UI', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    width: 180px; 
+    color: #131316;
+    text-align: center; 
+}
+
+.card__desc__title2 {
+    font-family: 'Segoe UI', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    width: 285px; 
+    color: #131316;
+    text-align: center; 
+}
+
+.card__desc__price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+}
+
+.card__desc__price2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 285px;
+}
+
+.card__desc__price__item1 {
+    font-family: 'Segoe UI', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    width: 90px;
+    color: #D9D9D9;
+}
+
+.card__desc__price__item2 {
+    font-family: 'Segoe UI', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    width: 90px;
+    color: #131316;
+} 
+

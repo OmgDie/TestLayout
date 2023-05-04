@@ -1,0 +1,180 @@
+/* section */
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section__title {
+    font-family: 'Segoe UI', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 53px;
+    width: 620px;
+}
+
+.cards__special {
+    display: flex;
+    flex-wrap: wrap;
+    width: 620px;
+    height: 470px;
+    margin-top: 24px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 4px;
+}
+.card__img__special {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 305px;
+    height: 305px;
+}
+
+.card__desc__special {
+    width: 315px;
+    height: 247px;
+    margin-top: 30px;
+    padding-left: 10px;
+}
+
+.card__desc__special__content {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.card__desc__special__conent__item2 {
+    font-size: 13px;
+    line-height: 17px;
+}
+
+.card__desc__special__price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Segoe UI', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    width: 240px;
+    height: 24px;
+    margin-top: 18px;
+    margin-bottom: 25px;
+}
+
+.card__desc__special__price__item1 {
+    width: 60px;
+    height: 20px;
+    color: #D9D9D9;
+}
+
+.card__desc__special__price__item2 {
+    width: 60px;
+    height: 20px;
+    color: #D9D9D9;
+}
+
+.card__desc__special__price__item3 {
+    font-weight: 700;
+    width: 60px;
+    height: 20px;
+    color: #131316;
+}
+
+.card__desc__special__price__item4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    width: 60px;
+    height: 24px;
+    background: #FF0000;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+.card__desc__special__discount {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Segoe UI', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    width: 240px;
+    margin-bottom: 8px;
+}
+
+.card__desc__special__discount__item2 {
+    font-weight: 700;
+    color: #FF0000;
+}
+
+.special__buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 620px;
+    height: 165px;
+    gap: 10px;
+}
+
+.special__buttons__promocode {
+    font-family: 'Segoe UI', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    width: 280px;
+    height: 60px;
+
+    border: 1px dashed #131316;
+    border-radius: 4px;
+}
+
+.special__buttons__order {
+    font-family: 'Segoe UI', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    width: 280px;
+    height: 60px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    cursor: pointer;
+
+    background: linear-gradient(87.23deg, rgba(128, 26, 179, 0) -91.42%, #4C4CFF 99.79%);
+    border-radius: 4px;
+    border: 0;
+}
+
+.special__buttons__promocode::placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #131316;
+}
